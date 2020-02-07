@@ -33,11 +33,11 @@ Automation InDesign excerpt
 	Type type = Type.GetTypeFromProgID("InDesign.Application.CS5", true);
 	dynamic app = System.Activator.CreateInstance(type, true);
 	string docPath = @"C:\Works\Catalog.indd";
-    	var doc = app.Open(docPath);
+	var doc = app.Open(docPath);
 	var textFrame = doc.Pages.Item[1].TextFrames.Item["Code"];
-    	textFrame.Contents = "Code: " + ProdId;
+	textFrame.Contents = "Code: " + ProdId;
 	textFrame = doc.Pages.Item[1].TextFrames.Item["Price"];
-    	textFrame.Contents = "€ " + string.Format("{0:F2}", Price);
+	textFrame.Contents = "€ " + string.Format("{0:F2}", Price);
 
 ## Experience
 [Personal Portfolio](https://codepen.io/natein/full/WrdBXm)

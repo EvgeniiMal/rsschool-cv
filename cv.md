@@ -1,9 +1,9 @@
 # Natalija Natein
 Junior software developer.
 ## Contact Info
-e-mail: natein@gmail.com
+e-mail: [natein@gmail.com](mailto:natein@gmail.com)
 
-skype: natein
+skype: [natein](skype:natein)
 
 ## Summary
 My goal is to work remotely for a company or to become a freelancer.
@@ -33,16 +33,16 @@ Automation InDesign excerpt
 	Type type = Type.GetTypeFromProgID("InDesign.Application.CS5", true);
 	dynamic app = System.Activator.CreateInstance(type, true);
 	string docPath = @"C:\Works\Catalog.indd";
-    var doc = app.Open(docPath);
+    	var doc = app.Open(docPath);
 	var textFrame = doc.Pages.Item[1].TextFrames.Item["Code"];
-    textFrame.Contents = "Code: " + ProdId;
+    	textFrame.Contents = "Code: " + ProdId;
 	textFrame = doc.Pages.Item[1].TextFrames.Item["Price"];
-    textFrame.Contents = "€ " + string.Format("{0:F2}", Price);
+    	textFrame.Contents = "€ " + string.Format("{0:F2}", Price);
 
 ## Experience
 [Personal Portfolio](https://codepen.io/natein/full/WrdBXm)
 
-[Учебный проект Nerds](https://natein.github.io/Nerds/)
+[Learning project Nerds](https://natein.github.io/Nerds/)
 
 [Asia Holidays](https://codepen.io/natein/full/zoQyqe)
 
@@ -52,6 +52,6 @@ Automation InDesign excerpt
 ## Education
 Omsk State University
 
-[My Stepik account](https://stepik.org/users/18193127/)
+[Stepik account](https://stepik.org/users/18193127/)
 ## English
 I have pre-intermediate level. I can write simple sentenses and understand slow speech.

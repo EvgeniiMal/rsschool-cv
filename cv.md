@@ -1,20 +1,20 @@
-#Natalija Natein
+# Natalija Natein
 Junior software developer.
-##Contact Info
+## Contact Info
 e-mail: natein@gmail.com
 
 skype: natein
 
-##Summary
+## Summary
 My goal is to work remotely for a company or to become a freelancer.
-##Skills
+## Skills
 C#/.NET
 
 HTML/CSS/Javascript
 
 Algorithms and data structures
 
-##Code examples
+## Code examples
 Working with JSON data
 
 	function businessNamesAndRatings(apiResult ) {
@@ -39,7 +39,7 @@ Automation InDesign excerpt
 	textFrame = doc.Pages.Item[1].TextFrames.Item["Price"];
     textFrame.Contents = "€ " + string.Format("{0:F2}", Price);
 
-##Experience
+## Experience
 [Personal Portfolio](https://codepen.io/natein/full/WrdBXm)
 
 [Учебный проект Nerds](https://natein.github.io/Nerds/)
@@ -49,9 +49,9 @@ Automation InDesign excerpt
 [Rio de Janeiro](https://codepen.io/natein/full/YpYYKY)
 
 
-##Education
+## Education
 Omsk State University
 
 [My Stepik account](https://stepik.org/users/18193127/)
-##English
+## English
 I have pre-intermediate level. I can write simple sentenses and understand slow speech.

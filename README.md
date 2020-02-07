@@ -1,2 +1,1 @@
-# rsschool-cv
-My CV
+https://natein.github.io/rsschool-cv/cv

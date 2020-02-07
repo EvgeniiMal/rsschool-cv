@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri, Verdana, san-serif;
+  font-size: 20px;  
+  background: black;
+  background-image: url("../img/code_dark.jpg");
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;  
+  background-color: white;
+}
+
+header {
+  background: #00ccff;
+  padding-top: 5px;
+}
+
+h1 {    
+  font-size: 40px;
+  line-height: 0.5;
+  text-align: center;
+  color: white;
+}
+
+header > p {
+  padding-bottom: 15px;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+
+section {
+  border-bottom: 1px solid #cccccc;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0 0 3px 3px #cccccc;  
+}
+
+pre {
+  font-family: Courier, monospace;
+  font-size: 18px;
+  background-color: #eeeeee;
+  padding-left: 20px;
+}
+
